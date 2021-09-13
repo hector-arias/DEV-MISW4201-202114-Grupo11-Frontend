@@ -9,7 +9,7 @@ import {AlbumCompartido, Cancion, CancionCompartida} from '../cancion/cancion';
 })
 export class AlbumService {
 
-  private backUrl: string = "https://misw4201-equipo-11-backend.herokuapp.com"
+  private backUrl: string = "https://dev-misw4201-equipo-11-backend.herokuapp.com"
 
   constructor(private http: HttpClient) { }
 
